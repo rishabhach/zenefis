@@ -45,7 +45,9 @@ binaryTree *makeBinaryTree(string &s,int i){
 	bTree->right=makeBinaryTree(s,i);	
 	
 	else if(s[i]!=0) {
-		bTree->left=
+		bTree->left=null;
+		bTree->right=null;
+		bTree->value=s[i];
 	}
 	
 	if(s[i]=='{')
