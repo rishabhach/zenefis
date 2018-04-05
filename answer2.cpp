@@ -6,7 +6,7 @@ using namespace std;
 typedef long long int ll;
 
 vector<int> letters(26,0);
-
+// here we can use segment tree to improve time complexity o(nlogn)
 // find all char which has lower order then char c
 ll findLowerOrderLetters(char c){
 	ll a=0,b=c-97;
